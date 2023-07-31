@@ -1,0 +1,172 @@
+/*Common shared styles*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+/*header section styles*/
+header{
+    background: rgba(229, 84, 115, 0.10);
+
+}
+.section-header{
+    display: flex;
+    padding-top: 197px; 
+    justify-content: space-between;
+    margin-bottom: 178px;
+}
+.section-title{
+    width: 708px;
+    height: 288px;
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+.section-description{
+    width: 634px;
+    height: 90px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.btn-shop{
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-style: none;
+}
+.tulip-flower{
+    width: 635px;
+    height: 650px;
+}
+.featured-flower{
+    /* background: #FFF; */
+}
+.section-title-1{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.section-description-1{
+    padding-bottom: 48px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.flower-tree{
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+    margin-bottom: 128px;
+}
+.flower-tree .item {
+    width: 33%;
+}
+.flower-tree .item .pink-flower{
+    height: 538px;
+    background-color: rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 300px 300px 0 0;
+}
+.flower-tree .item:nth-child(2) .pink-flower{
+    background-color: rgba(5, 152, 160, 0.15);
+}
+.flower-tree .item:last-child .pink-flower{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.flower-tree .item h6{
+    margin-top: 32px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+.flower-support{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(39, 39, 39, 5%);
+    padding: 86px 175px;
+    border-radius: 8px;
+    text-align: center;
+}
+.flower-support .item{
+    width: 33%;
+}
+.flower-support .item p{
+    padding-top: 24px;
+    color:rgba(39, 39, 39, 0.80)
+}
+/*  */
+.intro{
+    margin-top: 128px;
+   background-color: rgba(229, 84, 115, 5%); 
+   padding: 100px 0;
+}
+.intro-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.intro-flex  .left-item {
+    text-align: center;
+}
+.intro-flex  .left-item .section-title {
+    width: auto;
+    height: auto;
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.intro-flex  .tulip-flower{
+    width: 318px;
+    height: 440px;
+}
+/*  */
+.instagram{
+    width: fit-content;
+}
+/* footer section */
+footer{
+    width: auto;
+    padding: 128px 648px;
+    background-color: #272727;
+    color: #FFF;
+    text-align: center;
+}
+.footer-design{
+    margin: 0%;
+}
